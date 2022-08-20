@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63188bd-472b-4c58-869b-e5c3e3ff56ae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/config/DatabaseConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BookDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BookDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/entity/BookEntity.java" afterDir="false" />
+    <list default="true" id="e63188bd-472b-4c58-869b-e5c3e3ff56ae" name="Changes" comment="init dev branch">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BooksDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BooksDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/exception/NoSuchBookException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/jdbc.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/config/DatabaseConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BookDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BookDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/entity/BookEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/entity/BooksEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -54,7 +57,12 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.homework.jdbc.exception" />
+      <recent name="com.homework.jdbc.dao" />
       <recent name="com.homework.jdbc.entity" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\38067\IdeaProjects\HomeWorkJDBC\src\main\java\com\homework\jdbc" />
     </key>
   </component>
   <component name="RunManager">
@@ -86,6 +94,14 @@
       <option name="presentableId" value="Default" />
       <updated>1660739212436</updated>
     </task>
+    <task id="LOCAL-00001" summary="init dev branch">
+      <created>1660999090916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660999090916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -101,5 +117,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init dev branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="init dev branch" />
   </component>
 </project>
