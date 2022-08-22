@@ -4,19 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e63188bd-472b-4c58-869b-e5c3e3ff56ae" name="Changes" comment="init dev branch">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BooksDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BooksDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/exception/NoSuchBookException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/jdbc.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+    <list default="true" id="e63188bd-472b-4c58-869b-e5c3e3ff56ae" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/CourseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/CourseDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/entity/CourseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/entity/StudentEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/exception/NoSuchCourseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/exception/NoSuchStudentException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/config/DatabaseConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/config/DatabaseConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/dao/BookDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/entity/BookEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/entity/BooksEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/entity/BooksEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/entity/BooksEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/jdbc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/homework/jdbc/jdbc.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +26,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660999090916</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1661030072472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1661030072472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -120,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init dev branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="init dev branch" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

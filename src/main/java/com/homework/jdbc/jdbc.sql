@@ -14,16 +14,16 @@ INSERT INTO books (id,bookName,bookSize,bookISBN,bookAuthor,bookPublication)
         ('117fa19f-5b14-461e-849c-e4546b21e891','Effective Java',412,'0134685997','Joshua Bloch','27.11.2017');
 
 CREATE TABLE student (
-    id serial PRIMARY KEY,
+    id uuid PRIMARY KEY,
     firstName text NOT NULL,
     lastName text NOT NULL,
     dateOfBirth date NOT NULL,
-    book_id int,
-    course_id int
+    book_id uuid,
+    course_id uuid
 );
 
 CREATE TABLE course (
-    id serial PRIMARY KEY,
+    id uuid PRIMARY KEY,
     courseName text NOT NULL,
     courseDuration text NOT NULL
 );

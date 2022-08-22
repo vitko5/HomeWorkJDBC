@@ -6,16 +6,16 @@ import lombok.experimental.FieldDefaults;
 import java.sql.Date;
 import java.util.UUID;
 
-@Setter
 @Getter
+@Setter
 @AllArgsConstructor
 @ToString
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class BooksEntity {
+public class StudentEntity {
     UUID id;
-    String bookName;
-    Integer bookSize;
-    String bookISBN;
-    String bookAuthor;
-    Date bookPublication;
+    String firstName;
+    String lastName;
+    Date dateOfBirth;
+    UUID book_id;
+    UUID course_id;
 }
